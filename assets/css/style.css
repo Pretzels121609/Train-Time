@@ -1,0 +1,25 @@
+#wrapper {
+    background: url("../images/concrete_seamless.png");
+}
+#header {
+    background: url(../images/jumbotron_background.png);
+    text-align: center;
+    border: 1px solid #aeadad;
+    font-family: 'Rye', cursive;
+}
+.display-4 {
+    font-size: 100px;
+    line-height: 1;
+}
+.lead {
+    font-size: 35px;
+}
+.card-header {
+    background-color: #7e7e7f;
+    border-color: #6c757d;
+    color: #fff;
+}
+ /*for cards*/
+ .content-wrap{
+    padding: 5px 0px;
+}

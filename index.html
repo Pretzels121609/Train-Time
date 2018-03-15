@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+    <title>Train Time</title>
+</head>
+
+<body>
+    <!-- outside wrapper -->
+    <div id="wrapper">
+        <!-- container for the form containing 3 rows-->
+        <div class="container">
+            <!-- row 1 Jumbotron Header -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 jumbotron" id="header">
+                    <h1 class="display-4">Train Time</h1>
+                    <!-- insert current time -->
+                    <p class="lead">Destination... Anywhere!</p>
+                </div>
+            </div>
+
+            <!-- row 2  Train Schedule-->
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 content-wrap">                   
+                <div class="card">
+                    <div class="card-header">
+                         Current Train Schedule
+                    </div>
+                    <!-- create table for trains -->
+                    <div class="card-body">
+                    <!-- form will be dynamically added here -->
+                    </div>
+                    <table class="table table-striped">
+                        <div class="card-body">
+                        <thead>
+                          <tr>
+                            <th>Train Name</th>
+                            <th>Destination</th>
+                            <th>Frequency (min)</th>
+                            <th>Next Arrival</th>
+                            <th>Minutes Away</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <!-- 
+                            this will be dynamically created and appended to the page
+                            for each train added to firebase from the form
+                            <tr>
+                                <td>choo choo</td>
+                                <td>Train Station</td>
+                                <td>15</td>
+                                <td>0:5:30 PM</td>
+                                <td>5</td>
+                          </tr> -->
+                        </tbody>
+                        </div>
+                    </table>
+                </div>
+            </div>
+        </div>
+            
+            <!-- row 3 -->
+            <div class="row ">
+                <div class="col-sm-12 col-md-12 col-lg-12 content-wrap">
+                    <div class="card">
+                        <div class="card-header">
+                            Add Train
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <!-- Add new train name here -->
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Train Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Destination</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group">
+                                        <label for="exampleInputPassword1">First Train Time (HH:mm - military time)</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group">
+                                        <label for="exampleInputPassword1">Frequency (min)</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </form>
+                            <button class="btn btn-secondary">Submit</button>
+                        </div>
+                    </div>
+                </div>     
+                   
+
+                    <!-- Destination -->
+                    <!-- First Train Time -->
+                    <!-- Frequecy in minutes -->
+                    <!-- submit button -->
+                    
+                </div>
+        </div> <!-- container -->
+    </div> <!-- wrapper -->
+    
+
+
+
+
+
+
+</body>
