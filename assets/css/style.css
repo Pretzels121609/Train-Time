@@ -23,3 +23,32 @@
  .content-wrap{
     padding: 5px 0px;
 }
+
+
+
+
+
+/* media queries */
+@media only screen and (max-width: 640px) {
+
+    /* .work {
+      width: 100%;
+    }
+    header{
+      position: fixed;
+      min-width: 100%;
+      z-index: 999; */
+    }
+   }
+  
+   @media only screen and (min-width: 768px) and (max-width: 979px){
+  
+    /* .work {
+      width: 100%;
+    } */
+   }
+  
+   @media only screen and (min-width: 980px) {
+  
+    
+   }
