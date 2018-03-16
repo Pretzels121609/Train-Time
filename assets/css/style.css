@@ -31,24 +31,26 @@
 /* media queries */
 @media only screen and (max-width: 640px) {
 
-    /* .work {
-      width: 100%;
+    #header {
+        background: url(../images/Jumbotron_Header-sm.png);
+      }
+      .display-4 {
+        font-size: 50%;
+        line-height: 1;
     }
-    header{
-      position: fixed;
-      min-width: 100%;
-      z-index: 999; */
-    }
+
    }
   
    @media only screen and (min-width: 768px) and (max-width: 979px){
   
-    /* .work {
-      width: 100%;
-    } */
+
    }
   
    @media only screen and (min-width: 980px) {
   
     
    }
+/* 
+   position: fixed;
+   min-width: 100%;
+   z-index: 999; */
